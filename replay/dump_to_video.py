@@ -12,7 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Script allowing to render a replay video from a game dump."""
+"""Script allowing to render a replay video from a game dump.
+   Example usage:
+   python dump_to_video.py --trace_file=your dump file
+
+"""
+
 
 from absl import app
 from absl import flags
